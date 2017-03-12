@@ -11,18 +11,18 @@
         android:theme="@style/AppTheme">
         <activity android:name=".AddPlace" />
         <activity android:name=".SignUpBusiness">
+
+        </activity>
+        <activity android:name=".FAB" />
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".SignUpChooser"></activity>
+        <activity android:name=".SignUpUser">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".FAB" />
-        <activity android:name=".MainActivity">
-
-        </activity>
-        <activity android:name=".SignUpChooser">
-
         </activity>
     </application>
 
